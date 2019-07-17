@@ -13,7 +13,23 @@
 		40A6094122DEF1FD0013EDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6093F22DEF1FD0013EDAD /* Main.storyboard */; };
 		40A6094322DEF1FE0013EDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6094222DEF1FE0013EDAD /* Assets.xcassets */; };
 		40A6094622DEF1FE0013EDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6094422DEF1FE0013EDAD /* LaunchScreen.storyboard */; };
+		40A6094E22DEF2C80013EDAD /* TraderChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A6094D22DEF2C80013EDAD /* TraderChart.framework */; };
+		40A6094F22DEF2C80013EDAD /* TraderChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40A6094D22DEF2C80013EDAD /* TraderChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40A6095022DEF2C80013EDAD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				40A6094F22DEF2C80013EDAD /* TraderChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		40A6093622DEF1FD0013EDAD /* TraderChartTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraderChartTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +40,7 @@
 		40A6094222DEF1FE0013EDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A6094522DEF1FE0013EDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A6094722DEF1FE0013EDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A6094D22DEF2C80013EDAD /* TraderChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraderChart.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A6094E22DEF2C80013EDAD /* TraderChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 		40A6092D22DEF1FD0013EDAD = {
 			isa = PBXGroup;
 			children = (
+				40A6094D22DEF2C80013EDAD /* TraderChart.framework */,
 				40A6093822DEF1FD0013EDAD /* TraderChartTutorial */,
 				40A6093722DEF1FD0013EDAD /* Products */,
 			);
@@ -77,6 +96,8 @@
 				40A6093222DEF1FD0013EDAD /* Sources */,
 				40A6093322DEF1FD0013EDAD /* Frameworks */,
 				40A6093422DEF1FD0013EDAD /* Resources */,
+				40A6095022DEF2C80013EDAD /* Embed Frameworks */,
+				40A6095122DEF2DB0013EDAD /* Run Script(TraderChart) */,
 			);
 			buildRules = (
 			);
@@ -132,6 +153,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40A6095122DEF2DB0013EDAD /* Run Script(TraderChart) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script(TraderChart)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/TraderChart.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40A6093222DEF1FD0013EDAD /* Sources */ = {
@@ -288,6 +330,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FVA3NE35B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TraderChartTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FVA3NE35B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TraderChartTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

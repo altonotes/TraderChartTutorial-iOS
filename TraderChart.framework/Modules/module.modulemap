@@ -1,0 +1,11 @@
+framework module TraderChart {
+  umbrella header "TraderChart.h"
+
+  export *
+  module * { export * }
+}
+
+module TraderChart.Swift {
+    header "TraderChart-Swift.h"
+    requires objc
+}
