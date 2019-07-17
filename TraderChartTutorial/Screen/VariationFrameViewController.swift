@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  VariationFrameViewController.swift
 //  TraderChartTutorial
 //
 //  Created by Keita Yamamoto on 2019/07/17.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class VariationFrameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
