@@ -99,8 +99,8 @@
 			children = (
 				40A6093B22DEF1FD0013EDAD /* MainViewController.swift */,
 				40A6093D22DEF1FD0013EDAD /* VariationMenuViewController.swift */,
-				40A6093F22DEF1FD0013EDAD /* Main.storyboard */,
 				40A6095422DEF4B00013EDAD /* VariationFrameViewController.swift */,
+				40A6093F22DEF1FD0013EDAD /* Main.storyboard */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
