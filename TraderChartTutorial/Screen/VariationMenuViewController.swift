@@ -10,19 +10,24 @@ import UIKit
 
 class VariationMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var items: [SampleVariation] {
+        return SampleVariation.allCases
     }
 
+    @IBOutlet weak var tableView: UITableView!
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return items.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = UITableViewCell()
+        cell.textLabel?.text = items[indexPath.row].rawValue
+        return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showVariationFrame", sender: nil)
+    }
 }
 
