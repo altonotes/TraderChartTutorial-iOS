@@ -10,6 +10,8 @@
 		402E622422E18F8400E2701D /* MinimumSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E622222E18F8400E2701D /* MinimumSampleViewController.swift */; };
 		402E622522E18F8400E2701D /* MinimumSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402E622322E18F8400E2701D /* MinimumSampleViewController.xib */; };
 		402E622722E1900600E2701D /* SampleVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E622622E1900600E2701D /* SampleVariation.swift */; };
+		402E622A22E19E5500E2701D /* chart_data_day.json in Resources */ = {isa = PBXBuildFile; fileRef = 402E622922E19E5500E2701D /* chart_data_day.json */; };
+		402E622C22E19E7100E2701D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E622B22E19E7100E2701D /* DataLoader.swift */; };
 		40A6093A22DEF1FD0013EDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6093922DEF1FD0013EDAD /* AppDelegate.swift */; };
 		40A6093C22DEF1FD0013EDAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6093B22DEF1FD0013EDAD /* MainViewController.swift */; };
 		40A6093E22DEF1FD0013EDAD /* VariationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6093D22DEF1FD0013EDAD /* VariationMenuViewController.swift */; };
@@ -39,6 +41,8 @@
 		402E622222E18F8400E2701D /* MinimumSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSampleViewController.swift; sourceTree = "<group>"; };
 		402E622322E18F8400E2701D /* MinimumSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinimumSampleViewController.xib; sourceTree = "<group>"; };
 		402E622622E1900600E2701D /* SampleVariation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVariation.swift; sourceTree = "<group>"; };
+		402E622922E19E5500E2701D /* chart_data_day.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data_day.json; sourceTree = "<group>"; };
+		402E622B22E19E7100E2701D /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		40A6093622DEF1FD0013EDAD /* TraderChartTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraderChartTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A6093922DEF1FD0013EDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A6093B22DEF1FD0013EDAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +76,14 @@
 			path = Minimum;
 			sourceTree = "<group>";
 		};
+		402E622822E19E1000E2701D /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				402E622922E19E5500E2701D /* chart_data_day.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
 		40A6092D22DEF1FD0013EDAD = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +104,7 @@
 		40A6093822DEF1FD0013EDAD /* TraderChartTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				402E622822E19E1000E2701D /* SampleData */,
 				40A6095322DEF4730013EDAD /* Screen */,
 				40A6095222DEF44F0013EDAD /* Entity */,
 				40A6093922DEF1FD0013EDAD /* AppDelegate.swift */,
@@ -106,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				402E622622E1900600E2701D /* SampleVariation.swift */,
+				402E622B22E19E7100E2701D /* DataLoader.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -182,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402E622A22E19E5500E2701D /* chart_data_day.json in Resources */,
 				40A6094622DEF1FE0013EDAD /* LaunchScreen.storyboard in Resources */,
 				402E622522E18F8400E2701D /* MinimumSampleViewController.xib in Resources */,
 				40A6094322DEF1FE0013EDAD /* Assets.xcassets in Resources */,
@@ -219,6 +234,7 @@
 			files = (
 				40A6095522DEF4B00013EDAD /* VariationFrameViewController.swift in Sources */,
 				402E622722E1900600E2701D /* SampleVariation.swift in Sources */,
+				402E622C22E19E7100E2701D /* DataLoader.swift in Sources */,
 				402E622422E18F8400E2701D /* MinimumSampleViewController.swift in Sources */,
 				40A6093E22DEF1FD0013EDAD /* VariationMenuViewController.swift in Sources */,
 				40A6093A22DEF1FD0013EDAD /* AppDelegate.swift in Sources */,

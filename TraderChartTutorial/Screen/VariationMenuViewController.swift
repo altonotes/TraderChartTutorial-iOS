@@ -8,14 +8,26 @@
 
 import UIKit
 
-class VariationMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class VariationMenuViewController: UIViewController {
+
+    @IBOutlet weak var tableView: UITableView!
 
     var items: [SampleVariation] {
         return SampleVariation.allCases
     }
 
-    @IBOutlet weak var tableView: UITableView!
+    var selectedItem: SampleVariation?
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let controller = segue.destination as? VariationFrameViewController else {
+            return
+        }
+        controller.sampleVariation = selectedItem
+        selectedItem = nil
+    }
+}
+
+extension VariationMenuViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -27,6 +39,8 @@ class VariationMenuViewController: UIViewController, UITableViewDataSource, UITa
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        selectedItem = items[indexPath.row]
         performSegue(withIdentifier: "showVariationFrame", sender: nil)
     }
 }

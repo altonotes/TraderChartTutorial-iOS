@@ -9,8 +9,8 @@
 import Foundation
 
 enum SampleVariation: String, CaseIterable {
-    case minimum
-    case customizeUI
-    case dataUpdate
-    case callback
+    case minimum = "最小構成"
+    case customizeUI = "UIカスタマイズ"
+    case dataUpdate = "チャートデータの更新・追加"
+    case callback = "コールバックサンプル"
 }

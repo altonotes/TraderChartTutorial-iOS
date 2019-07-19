@@ -6,15 +6,19 @@
 //  Copyright © 2019 altonotes Inc. All rights reserved.
 //
 
-import UIKit
+import TraderChart
 
 class MainViewController: UIViewController {
 
+    let dataLoader = DataLoader()
+
+    @IBOutlet weak var chartView: TraderChartView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let chartData = dataLoader.loadChartData(file: "chart_data_day")
+        chartView.addData(chartData)
     }
-
-
 }
 

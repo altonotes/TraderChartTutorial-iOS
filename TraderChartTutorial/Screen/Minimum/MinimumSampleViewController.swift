@@ -6,7 +6,7 @@
 //  Copyright © 2019 altonotes Inc. All rights reserved.
 //
 
-import UIKit
+import TraderChart
 
 class MinimumSampleViewController: UIViewController {
 
