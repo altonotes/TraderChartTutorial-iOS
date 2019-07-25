@@ -8,11 +8,24 @@
 
 import TraderChart
 
+/// 最小構成のチャートサンプル
 class MinimumSampleViewController: UIViewController {
 
+    @IBOutlet weak var topChartView: TraderChartView!
+    @IBOutlet weak var bottomChartView: TraderChartView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let data = ChartData(timeList: ["1", "2", "3"],
+                             openList: [100, 103,  97],
+                             highList: [110, 105, 100],
+                             lowList:  [ 95,  95,  87],
+                             closeList:[105,  98,  92])
+
+        topChartView.addData(data)
+
+        bottomChartView.xAxis.fixedCount = 3
+        bottomChartView.addData(data)
     }
 }

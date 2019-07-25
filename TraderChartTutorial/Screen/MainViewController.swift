@@ -8,6 +8,7 @@
 
 import TraderChart
 
+/// メインのチャートサンプル
 class MainViewController: UIViewController {
 
     let dataLoader = DataLoader()

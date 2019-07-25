@@ -41,12 +41,12 @@ class VariationFrameViewController: UIViewController {
 
             addChild(contentsController)
             view.addSubview(contentsView)
-            // TODO この制約だとフッター、ヘッダーに被ってしまう
+            
             contentsView.translatesAutoresizingMaskIntoConstraints = false
-            contentsView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-            contentsView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-            contentsView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-            contentsView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+            contentsView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            contentsView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            contentsView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
+            contentsView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
         }
     }
 }
