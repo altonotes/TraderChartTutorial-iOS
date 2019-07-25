@@ -20,17 +20,7 @@ class VariationFrameViewController: UIViewController {
         guard let sampleVariation = sampleVariation else {
             return nil
         }
-
-        switch sampleVariation {
-        case .minimum:
-            return MinimumSampleViewController()
-        case .dataUpdate:
-            return MinimumSampleViewController() // TODO 各ケースのViewController作成
-        case .customizeUI:
-            return MinimumSampleViewController() // TODO 各ケースのViewController作成
-        case .callback:
-            return MinimumSampleViewController() // TODO 各ケースのViewController作成
-        }
+        return contentsViewController(sampleVariation: sampleVariation)
     }
 
     override func viewDidLoad() {
@@ -47,6 +37,19 @@ class VariationFrameViewController: UIViewController {
             contentsView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
             contentsView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
             contentsView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
+        }
+    }
+
+    func contentsViewController(sampleVariation: SampleVariation) -> UIViewController {
+        switch sampleVariation {
+        case .minimum:
+            return MinimumSampleViewController()
+        case .dataUpdate:
+            return DataUpdateSampleViewController()
+        case .uiCustomize:
+            return UICustomizeSampleViewController()
+        case .callback:
+            return CallbackSampleViewController()
         }
     }
 }
