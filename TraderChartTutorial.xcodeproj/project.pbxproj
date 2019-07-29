@@ -12,6 +12,7 @@
 		402E622722E1900600E2701D /* SampleVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E622622E1900600E2701D /* SampleVariation.swift */; };
 		402E622A22E19E5500E2701D /* chart_data_day.json in Resources */ = {isa = PBXBuildFile; fileRef = 402E622922E19E5500E2701D /* chart_data_day.json */; };
 		402E622C22E19E7100E2701D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E622B22E19E7100E2701D /* DataLoader.swift */; };
+		40603DA022EEC83600630CAB /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40603D9F22EEC83600630CAB /* String+Utils.swift */; };
 		4066CB5922E6E98600ED5451 /* SettingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066CB5722E6E98600ED5451 /* SettingMenuViewController.swift */; };
 		4066CB5A22E6E98600ED5451 /* SettingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4066CB5822E6E98600ED5451 /* SettingMenuViewController.xib */; };
 		40A6093A22DEF1FD0013EDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6093922DEF1FD0013EDAD /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 		402E622622E1900600E2701D /* SampleVariation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVariation.swift; sourceTree = "<group>"; };
 		402E622922E19E5500E2701D /* chart_data_day.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data_day.json; sourceTree = "<group>"; };
 		402E622B22E19E7100E2701D /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		40603D9F22EEC83600630CAB /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		4066CB5722E6E98600ED5451 /* SettingMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenuViewController.swift; sourceTree = "<group>"; };
 		4066CB5822E6E98600ED5451 /* SettingMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingMenuViewController.xib; sourceTree = "<group>"; };
 		40A6093622DEF1FD0013EDAD /* TraderChartTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraderChartTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,14 @@
 			path = SampleData;
 			sourceTree = "<group>";
 		};
+		40603D9E22EEC81800630CAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				40603D9F22EEC83600630CAB /* String+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		4066CB5622E6E97100ED5451 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		40A6093822DEF1FD0013EDAD /* TraderChartTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				40603D9E22EEC81800630CAB /* Utils */,
 				402E622822E19E1000E2701D /* SampleData */,
 				40A6095322DEF4730013EDAD /* Screen */,
 				40A6095222DEF44F0013EDAD /* Entity */,
@@ -308,6 +319,7 @@
 				4066CB5922E6E98600ED5451 /* SettingMenuViewController.swift in Sources */,
 				40A6093E22DEF1FD0013EDAD /* VariationMenuViewController.swift in Sources */,
 				40F515DC22E986090068600F /* DataUpdateSampleViewController.swift in Sources */,
+				40603DA022EEC83600630CAB /* String+Utils.swift in Sources */,
 				40A6093A22DEF1FD0013EDAD /* AppDelegate.swift in Sources */,
 				40F515E022E986150068600F /* CallbackSampleViewController.swift in Sources */,
 				40A6093C22DEF1FD0013EDAD /* MainViewController.swift in Sources */,
