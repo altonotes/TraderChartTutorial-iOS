@@ -1,0 +1,2225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChartView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ChartView" class="dashAnchor"></a>
+    <a title="ChartView Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TraderChart Docs</a> (78% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TraderChart Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ChartView Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AreaSeparator.html">AreaSeparator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartDrawer.html">BarChartDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BollingerBand.html">BollingerBand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BollingerBand/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BollingerBandCalculator.html">BollingerBandCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BollingerBandCalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Candle.html">Candle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartBorder.html">ChartBorder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartData.html">ChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartDrawingContext.html">ChartDrawingContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartView.html">ChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ColorConfig.html">ColorConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ColorText.html">ColorText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DMIADX.html">DMIADX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DMIADX/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DMICalculator.html">DMICalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DMICalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DefaultFontContext.html">DefaultFontContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EMA.html">EMA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EMA/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EMACalculator.html">EMACalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnvelopeCalculator.html">EnvelopeCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FillingAreaDrawer.html">FillingAreaDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphArea.html">GraphArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ichimoku.html">Ichimoku</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ichimoku/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IchimokuCalculator.html">IchimokuCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IchimokuCalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Legend.html">Legend</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LegendDrawer.html">LegendDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LineChartDrawer.html">LineChartDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MACD.html">MACD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MACD/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MACDCalculator.html">MACDCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MACDCalculator/SignalType.html">– SignalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MACDCalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NumberArray.html">NumberArray</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ParabolicSARCalculator.html">ParabolicSARCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PinchInOut.html">PinchInOut</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PriceLine.html">PriceLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PriceMarker.html">PriceMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PsychologicalCalculator.html">PsychologicalCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RCI.html">RCI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RCI/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RCICalculator.html">RCICalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RSI.html">RSI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RSI/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RSICalculator.html">RSICalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RSICalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMA.html">SMA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMA/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMACalculator.html">SMACalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Scroller.html">Scroller</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Scroller/Direction.html">– Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SimpleTechnicalChart.html">SimpleTechnicalChart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SpanModelCalculator.html">SpanModelCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StickChartDrawer.html">StickChartDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Stochastics.html">Stochastics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Stochastics/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StochasticsCalculator.html">StochasticsCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StochasticsCalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:11TraderChart24SuperBollingerCalculatorC">SuperBollingerCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeMarker.html">TimeMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TraderChartView.html">TraderChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPoint.html">TurningPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPoint/Param.html">– Param</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPointCalculator.html">TurningPointCalculator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPointCalculator/PointType.html">– PointType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPointCalculator/TurningPoint.html">– TurningPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TurningPointCalculator/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Volume.html">Volume</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XAxis.html">XAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/YAxis.html">YAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/YAxis/GraduationAlignment.html">– GraduationAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/YAxisSetting.html">YAxisSetting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/MainChartItem.html">MainChartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SubChartItem.html">SubChartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/YAxisAlignment.html">YAxisAlignment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGContext.html">CGContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDecimalNumber.html">NSDecimalNumber</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartDrawer.html">ChartDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartItem.html">ChartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ColorConfigurable.html">ColorConfigurable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FontContext.html">FontContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GraphAreaDrawer.html">GraphAreaDrawer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TechnicalChart.html">TechnicalChart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UsesFontContext.html">UsesFontContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/XAxisMarker.html">XAxisMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/YAxisMarker.html">YAxisMarker</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ChartRecord.html">ChartRecord</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChartView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">ChartView</span> <span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt"><a href="../Protocols/ColorConfigurable.html">ColorConfigurable</a></span><span class="p">,</span> <span class="kt"><a href="../Protocols/UsesFontContext.html">UsesFontContext</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>チャートの基盤View</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC8scrollerAA8ScrollerCvp"></a>
+                    <a name="//apple_ref/swift/Property/scroller" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC8scrollerAA8ScrollerCvp">scroller</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール制御</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">scroller</span><span class="p">:</span> <span class="kt"><a href="../Classes/Scroller.html">Scroller</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC6borderAA0B6BorderCvp"></a>
+                    <a name="//apple_ref/swift/Property/border" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC6borderAA0B6BorderCvp">border</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートの枠線</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">border</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChartBorder.html">ChartBorder</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC9separatorAA13AreaSeparatorCvp"></a>
+                    <a name="//apple_ref/swift/Property/separator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC9separatorAA13AreaSeparatorCvp">separator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>グラフエリアの仕切り線</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">separator</span><span class="p">:</span> <span class="kt"><a href="../Classes/AreaSeparator.html">AreaSeparator</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC12yAxisSettingAA05YAxisE0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/yAxisSetting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC12yAxisSettingAA05YAxisE0Cvp">yAxisSetting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Y軸の設定</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">yAxisSetting</span><span class="p">:</span> <span class="kt"><a href="../Classes/YAxisSetting.html">YAxisSetting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20chartBackgroundColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/chartBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20chartBackgroundColorSo7UIColorCSgvp">chartBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>マージンを除いた部分の背景色</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">chartBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20graphBackgroundColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/graphBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20graphBackgroundColorSo7UIColorCSgvp">graphBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>グラフ描画領域の背景色</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">graphBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC6marginSo12UIEdgeInsetsVvp"></a>
+                    <a name="//apple_ref/swift/Property/margin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC6marginSo12UIEdgeInsetsVvp">margin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>上下左右の余白</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">margin</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC10graphAreasSayAA9GraphAreaCGvp"></a>
+                    <a name="//apple_ref/swift/Property/graphAreas" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC10graphAreasSayAA9GraphAreaCGvp">graphAreas</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>全グラフ描画領域</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">graphAreas</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/GraphArea.html">GraphArea</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13mainGraphAreaAA0eF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/mainGraphArea" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13mainGraphAreaAA0eF0Cvp">mainGraphArea</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>メインのグラフ描画領域</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mainGraphArea</span><span class="p">:</span> <span class="kt"><a href="../Classes/GraphArea.html">GraphArea</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13subGraphAreasSayAA0E4AreaCGvp"></a>
+                    <a name="//apple_ref/swift/Property/subGraphAreas" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13subGraphAreasSayAA0E4AreaCGvp">subGraphAreas</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>サブグラフ描画領域</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subGraphAreas</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/GraphArea.html">GraphArea</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC5xAxisAA5XAxisCvp"></a>
+                    <a name="//apple_ref/swift/Property/xAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC5xAxisAA5XAxisCvp">xAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>X軸</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">xAxis</span><span class="p">:</span> <span class="kt"><a href="../Classes/XAxis.html">XAxis</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC17backgroundDrawersSayAA0B6Drawer_pGvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundDrawers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC17backgroundDrawersSayAA0B6Drawer_pGvp">backgroundDrawers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>背景の描画項目</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">backgroundDrawers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ChartDrawer.html">ChartDrawer</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC14overlayDrawersSayAA0B6Drawer_pGvp"></a>
+                    <a name="//apple_ref/swift/Property/overlayDrawers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC14overlayDrawersSayAA0B6Drawer_pGvp">overlayDrawers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャート上の描画項目</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">overlayDrawers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ChartDrawer.html">ChartDrawer</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC22onChangeSelectedRecordySiSg_AA0B4DataCSgtcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onChangeSelectedRecord" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC22onChangeSelectedRecordySiSg_AA0B4DataCSgtcSgvp">onChangeSelectedRecord</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>選択されたレコードに変化があった場合に通知するコールバック。タッチ位置変更時とデータ更新時に呼ばれる
+(選択されたインデックス, チャートデータ) -&gt; Void</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onChangeSelectedRecord</span><span class="p">:</span> <span class="p">((</span><span class="kt">Int</span><span class="p">?,</span> <span class="kt"><a href="../Classes/ChartData.html">ChartData</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC22onXAxisIntervalChangedy12CoreGraphics7CGFloatVcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onXAxisIntervalChanged" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC22onXAxisIntervalChangedy12CoreGraphics7CGFloatVcSgvp">onXAxisIntervalChanged</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>X軸の刻み間隔が変更された際のコールバック
+ピンチイン・ピンチアウトなどで呼ばれる
+(X軸の刻み幅) -&gt; Void</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onXAxisIntervalChanged</span><span class="p">:</span> <span class="p">((</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC15onScrollChangedy12CoreGraphics7CGFloatVcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onScrollChanged" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC15onScrollChangedy12CoreGraphics7CGFloatVcSgvp">onScrollChanged</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール変更時に実行されるコールバック (スクロール位置) -&gt; Void</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onScrollChanged</span><span class="p">:</span> <span class="p">((</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC9chartDataAA0bE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/chartData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC9chartDataAA0bE0CSgvp">chartData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータ。四本値などの情報</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">chartData</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChartData.html">ChartData</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC10pinchInOutAA05PincheF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/pinchInOut" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC10pinchInOutAA05PincheF0Cvp">pinchInOut</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ピンチイン・ピンチアウト処理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pinchInOut</span><span class="p">:</span> <span class="kt"><a href="../Classes/PinchInOut.html">PinchInOut</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC8canTouchSbvp"></a>
+                    <a name="//apple_ref/swift/Property/canTouch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC8canTouchSbvp">canTouch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートのタッチが有効か</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">canTouch</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC8maxCountSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/maxCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC8maxCountSiSgvp">maxCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータの最大数。nilの場合は無制限</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC16extraRemoveCountSivp"></a>
+                    <a name="//apple_ref/swift/Property/extraRemoveCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC16extraRemoveCountSivp">extraRemoveCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータが最大数を超えた場合、最大数から余分に削除するデータの個数
+削除後はデータ数が maxCount - extraRemoveCount になる</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">extraRemoveCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC17rightScrollMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/rightScrollMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC17rightScrollMargin12CoreGraphics7CGFloatVvp">rightScrollMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール領域右端の余白</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rightScrollMargin</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC16leftScrollMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/leftScrollMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC16leftScrollMargin12CoreGraphics7CGFloatVvp">leftScrollMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール領域左端の余白</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">leftScrollMargin</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC11colorConfigAA05ColorE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/colorConfig" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC11colorConfigAA05ColorE0CSgvp">colorConfig</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>色設定情報</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">colorConfig</span><span class="p">:</span> <span class="kt"><a href="../Classes/ColorConfig.html">ColorConfig</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC11fontContextAA04FontE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/fontContext" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC11fontContextAA04FontE0_pSgvp">fontContext</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>フォント設定情報</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fontContext</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FontContext.html">FontContext</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC10graphWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/graphWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC10graphWidth12CoreGraphics7CGFloatVvp">graphWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>グラフの図形描画部分の幅</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">graphWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC12scrollOffset12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/scrollOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC12scrollOffset12CoreGraphics7CGFloatVvp">scrollOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール位置</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scrollOffset</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC012parentScrollC0So08UIScrollC0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/parentScrollView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC012parentScrollC0So08UIScrollC0CSgvp">parentScrollView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>親のスクロールビュー</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">parentScrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC15canScrollParentSbSo7CGPointVcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/canScrollParent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC15canScrollParentSbSo7CGPointVcSgvp">canScrollParent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>親のスクロールビューがスワイプ可能か (TouchPoint) -&gt; canSwipe</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canScrollParent</span><span class="p">:</span> <span class="p">((</span><span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC16isParentDraggingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isParentDragging" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC16isParentDraggingSbvp">isParentDragging</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>親のスクロールビューをドラッグ中か</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isParentDragging</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC016loadingIndicatorC0So010UIActivityeC0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/loadingIndicatorView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC016loadingIndicatorC0So010UIActivityeC0Cvp">loadingIndicatorView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>インジケーター</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">loadingIndicatorView</span><span class="p">:</span> <span class="kt">UIActivityIndicatorView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13selectedIndexSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13selectedIndexSiSgvp">selectedIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>選択中のインデックス</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">selectedIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)initWithFrame:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)initWithFrame:">init(frame:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC10commonInityyF"></a>
+                    <a name="//apple_ref/swift/Method/commonInit()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC10commonInityyF">commonInit()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初期化処理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">commonInit</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC19actionScrollChanged8positiony12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/actionScrollChanged(position:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC19actionScrollChanged8positiony12CoreGraphics7CGFloatV_tF">actionScrollChanged(position:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>スクロール変更時の処理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">actionScrollChanged</span><span class="p">(</span><span class="nv">position</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)layoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/layoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)layoutSubviews">layoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">layoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20updateGraphAreaRects9graphRectySo6CGRectV_tF"></a>
+                    <a name="//apple_ref/swift/Method/updateGraphAreaRects(graphRect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20updateGraphAreaRects9graphRectySo6CGRectV_tF">updateGraphAreaRects(graphRect:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>各グラフエリアのサイズと位置を更新する
+Viewのサイズや、グラフエリアの数などUI要素に変化があった場合このメソッドを呼び出す必要がある
+（X軸・Y軸サイズ変更、表示グラフの増減、グラフサイズの変更、マージン・ボーダー・セパレータ幅などの変更）</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateGraphAreaRects</span><span class="p">(</span><span class="nv">graphRect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC16updateScrollSpanyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateScrollSpan()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC16updateScrollSpanyyF">updateScrollSpan()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>プロット数とプロット間隔に応じてスクロール範囲を更新する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateScrollSpan</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC7setDatayyAA0bE0CSgF"></a>
+                    <a name="//apple_ref/swift/Method/setData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC7setDatayyAA0bE0CSgF">setData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータをセットする</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setData</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChartData.html">ChartData</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC21updateLatestFourValueyy12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/updateLatestFourValue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC21updateLatestFourValueyy12CoreGraphics7CGFloatVF">updateLatestFourValue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>最新の4本値を更新する
+この関数で更新するのは4本値だけなので、出来高などの更新を行う場合は <code>addData</code> を使う</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateLatestFourValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>直近の価格</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC7addDatayyAA0bE0CSgF"></a>
+                    <a name="//apple_ref/swift/Method/addData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC7addDatayyAA0bE0CSgF">addData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータを追加する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">addData</span><span class="p">(</span><span class="n">_</span> <span class="nv">addedData</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChartData.html">ChartData</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)drawRect:"></a>
+                    <a name="//apple_ref/swift/Method/draw(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)drawRect:">draw(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>描画する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">draw</span><span class="p">(</span><span class="n">_</span> <span class="nv">rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13setMainChartsyySayAA09TechnicalB0_pGF"></a>
+                    <a name="//apple_ref/swift/Method/setMainCharts(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13setMainChartsyySayAA09TechnicalB0_pGF">setMainCharts(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>メインのグラフエリアに表示するチャートを設定する
+複数設定した場合、一つのグラフエリアに複数のチャートが表示される</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMainCharts</span><span class="p">(</span><span class="n">_</span> <span class="nv">charts</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/TechnicalChart.html">TechnicalChart</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC12setSubCharts_6height0G6WeightySayAA09TechnicalB0_pG_12CoreGraphics7CGFloatVSgAKtF"></a>
+                    <a name="//apple_ref/swift/Method/setSubCharts(_:height:heightWeight:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC12setSubCharts_6height0G6WeightySayAA09TechnicalB0_pG_12CoreGraphics7CGFloatVSgAKtF">setSubCharts(_:height:heightWeight:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>サブのグラフエリアに表示するチャートを設定する
+複数設定した場合、チャートの数だけグラフエリアが作成される</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setSubCharts</span><span class="p">(</span><span class="n">_</span> <span class="nv">charts</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/TechnicalChart.html">TechnicalChart</a></span><span class="p">],</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">heightWeight</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC11updateXAxis24clearTouchMarkerOnChangeySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/updateXAxis(clearTouchMarkerOnChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC11updateXAxis24clearTouchMarkerOnChangeySb_tF">updateXAxis(clearTouchMarkerOnChange:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>X軸を更新する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateXAxis</span><span class="p">(</span><span class="nv">clearTouchMarkerOnChange</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20setVisibleMainChartsyySayAA09TechnicalB0_pGF"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleMainCharts(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20setVisibleMainChartsyySayAA09TechnicalB0_pGF">setVisibleMainCharts(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>表示するメインチャートを指定する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleMainCharts</span><span class="p">(</span><span class="n">_</span> <span class="nv">charts</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/TechnicalChart.html">TechnicalChart</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC19setVisibleSubChartsyySayAA09TechnicalB0_pGF"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleSubCharts(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC19setVisibleSubChartsyySayAA09TechnicalB0_pGF">setVisibleSubCharts(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>表示するサブチャートを指定する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleSubCharts</span><span class="p">(</span><span class="n">_</span> <span class="nv">charts</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/TechnicalChart.html">TechnicalChart</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC22refrectParameterChangeyyF"></a>
+                    <a name="//apple_ref/swift/Method/refrectParameterChange()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC22refrectParameterChangeyyF">refrectParameterChange()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>テクニカル指標パラメータの変更を反映する
+パラメータが変わったテクニカル指標をクリアし、X軸の更新を行う</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refrectParameterChange</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC21updateGraphAreaLayoutyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateGraphAreaLayout()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC21updateGraphAreaLayoutyyF">updateGraphAreaLayout()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>グラフエリアのサイズと位置を更新する
+(drawで全く同じことをやっている）</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateGraphAreaLayout</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13reflectConfig6chartsySayAA09TechnicalB0_pG_tF"></a>
+                    <a name="//apple_ref/swift/Method/reflectConfig(charts:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13reflectConfig6chartsySayAA09TechnicalB0_pG_tF">reflectConfig(charts:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>引数のチャートに設定情報を反映する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reflectConfig</span><span class="p">(</span><span class="nv">charts</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/TechnicalChart.html">TechnicalChart</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC04makeB4Rect04fullE0So6CGRectVAG_tF"></a>
+                    <a name="//apple_ref/swift/Method/makeChartRect(fullRect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC04makeB4Rect04fullE0So6CGRectVAG_tF">makeChartRect(fullRect:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>マージンを除いた領域</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">makeChartRect</span><span class="p">(</span><span class="nv">fullRect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC13makeXAxisRect011outerBorderF005innerhF0So6CGRectVAH_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/makeXAxisRect(outerBorderRect:innerBorderRect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC13makeXAxisRect011outerBorderF005innerhF0So6CGRectVAH_AHtF">makeXAxisRect(outerBorderRect:innerBorderRect:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>X軸描画領域</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">makeXAxisRect</span><span class="p">(</span><span class="nv">outerBorderRect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">innerBorderRect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC17horizontalScaling13xAxisInterval12scrollOffsety12CoreGraphics7CGFloatV_AItF"></a>
+                    <a name="//apple_ref/swift/Method/horizontalScaling(xAxisInterval:scrollOffset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC17horizontalScaling13xAxisInterval12scrollOffsety12CoreGraphics7CGFloatV_AItF">horizontalScaling(xAxisInterval:scrollOffset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>プロット間の幅を変更する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">horizontalScaling</span><span class="p">(</span><span class="nv">xAxisInterval</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">scrollOffset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC18reflectColorConfigyyAA0eF0CF"></a>
+                    <a name="//apple_ref/swift/Method/reflectColorConfig(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC18reflectColorConfigyyAA0eF0CF">reflectColorConfig(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>色設定を反映する
+※ xAxis、yAxis、separator、borderなどを差し替える場合、差し替え後のインスタンスに設定は反映されない</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reflectColorConfig</span><span class="p">(</span><span class="n">_</span> <span class="nv">colorConfig</span><span class="p">:</span> <span class="kt"><a href="../Classes/ColorConfig.html">ColorConfig</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC18reflectFontContextyyAA0eF0_pF"></a>
+                    <a name="//apple_ref/swift/Method/reflectFontContext(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC18reflectFontContextyyAA0eF0_pF">reflectFontContext(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>フォント設定を反映する
+※ xAxis、yAxis、separator、borderなどを差し替える場合、差し替え後のインスタンスに設定は反映されない</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reflectFontContext</span><span class="p">(</span><span class="n">_</span> <span class="nv">fontContext</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FontContext.html">FontContext</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20showLoadingIndicatoryyF"></a>
+                    <a name="//apple_ref/swift/Method/showLoadingIndicator()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20showLoadingIndicatoryyF">showLoadingIndicator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>読込インジケーターを表示する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showLoadingIndicator</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC20hideLoadingIndicatoryyF"></a>
+                    <a name="//apple_ref/swift/Method/hideLoadingIndicator()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC20hideLoadingIndicatoryyF">hideLoadingIndicator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>読込インジケーターを非表示にする</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideLoadingIndicator</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC5clearyyF"></a>
+                    <a name="//apple_ref/swift/Method/clear()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC5clearyyF">clear()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートをクリアする</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">clear</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC11setMaxCount_011extraRemoveF0ySi_SitF"></a>
+                    <a name="//apple_ref/swift/Method/setMaxCount(_:extraRemoveCount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC11setMaxCount_011extraRemoveF0ySi_SitF">setMaxCount(_:extraRemoveCount:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>チャートデータの最大数を設定する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMaxCount</span><span class="p">(</span><span class="n">_</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">extraRemoveCount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC015setParentScrollC0_03canfE0ySo08UIScrollC0C_SbSo7CGPointVctF"></a>
+                    <a name="//apple_ref/swift/Method/setParentScrollView(_:canScrollParent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC015setParentScrollC0_03canfE0ySo08UIScrollC0C_SbSo7CGPointVctF">setParentScrollView(_:canScrollParent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>親のスクロールビューを設定する
+ChartViewがスクロールビュー上にあり、かつタッチ処理を行う必要がある場合、
+このファンクションで親のスクロールビューとどちらのタッチを有効にするかの判定を設定する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setParentScrollView</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">,</span> <span class="nv">canScrollParent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)touchesBegan:withEvent:"></a>
+                    <a name="//apple_ref/swift/Method/touchesBegan(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)touchesBegan:withEvent:">touchesBegan(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチ開始</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">touchesBegan</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)touchesMoved:withEvent:"></a>
+                    <a name="//apple_ref/swift/Method/touchesMoved(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)touchesMoved:withEvent:">touchesMoved(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチ移動</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">touchesMoved</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)touchesEnded:withEvent:"></a>
+                    <a name="//apple_ref/swift/Method/touchesEnded(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)touchesEnded:withEvent:">touchesEnded(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチ終了</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">touchesEnded</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TraderChart@objc(cs)ChartView(im)touchesCancelled:withEvent:"></a>
+                    <a name="//apple_ref/swift/Method/touchesCancelled(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TraderChart@objc(cs)ChartView(im)touchesCancelled:withEvent:">touchesCancelled(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチキャンセル</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">touchesCancelled</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC16touchesCompleted_4withyShySo7UITouchCG_So7UIEventCSgtF"></a>
+                    <a name="//apple_ref/swift/Method/touchesCompleted(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC16touchesCompleted_4withyShySo7UITouchCG_So7UIEventCSgtF">touchesCompleted(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチ終了時の処理（キャンセル時も呼ばれる）</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">touchesCompleted</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC9locations7touchesSaySo7CGPointVGShySo7UITouchCGSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/locations(touches:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC9locations7touchesSaySo7CGPointVGShySo7UITouchCGSg_tF">locations(touches:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>タッチをView座標に変換する</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">locations</span><span class="p">(</span><span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">CGPoint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11TraderChart0B4ViewC11importState4fromyAC_tF"></a>
+                    <a name="//apple_ref/swift/Method/importState(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11TraderChart0B4ViewC11importState4fromyAC_tF">importState(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>別のChartViewの状態（チャートデータ、レコード幅、スクロール位置）を引き継ぐ</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">importState</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="kt">ChartView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="http://altonotes.co.jp/" target="_blank" rel="external">altonotes</a>. All rights reserved. (Last updated: 2019-07-29)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

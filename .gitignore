@@ -5,5 +5,3 @@ DerivedData
 *.xccheckout
 xcuserdata
 .DS_Store
-/TraderChart/Output/
-/docs

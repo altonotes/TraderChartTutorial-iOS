@@ -1,0 +1,1517 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 58,
+      "symbol": "BollingerBandCalculator.update(span:closeList:sigmaRates:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 81,
+      "symbol": "BollingerBandCalculator.Results.sma",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 82,
+      "symbol": "BollingerBandCalculator.Results.plus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 83,
+      "symbol": "BollingerBandCalculator.Results.minus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 85,
+      "symbol": "BollingerBandCalculator.Results.init(sma:plus:minus:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 91,
+      "symbol": "BollingerBandCalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 97,
+      "symbol": "BollingerBandCalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/BollingerBandCalculator.swift",
+      "line": 103,
+      "symbol": "BollingerBandCalculator.Results.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 121,
+      "symbol": "DMICalculator.update(averageSpan:adxSpan:adxrSpan:highList:lowList:closeList:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 145,
+      "symbol": "DMICalculator.Results.plus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 146,
+      "symbol": "DMICalculator.Results.minus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 147,
+      "symbol": "DMICalculator.Results.adx",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 148,
+      "symbol": "DMICalculator.Results.adxr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 150,
+      "symbol": "DMICalculator.Results.init(plus:minus:adx:adxr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 157,
+      "symbol": "DMICalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/DMICalculator.swift",
+      "line": 164,
+      "symbol": "DMICalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/EMACalculator.swift",
+      "line": 60,
+      "symbol": "EMACalculator.update(span:src:emaList:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/EnvelopeCalculator.swift",
+      "line": 13,
+      "symbol": "EnvelopeCalculator.calculate(span:upperRate:lowerRate:src:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 109,
+      "symbol": "IchimokuCalculator.update(span:tenkanSpan:kijunSpan:highList:lowList:closeList:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 149,
+      "symbol": "IchimokuCalculator.Results.tenkan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 150,
+      "symbol": "IchimokuCalculator.Results.kijun",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 151,
+      "symbol": "IchimokuCalculator.Results.chiko",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 152,
+      "symbol": "IchimokuCalculator.Results.senko2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 153,
+      "symbol": "IchimokuCalculator.Results.senko1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 155,
+      "symbol": "IchimokuCalculator.Results.init(tenkan:kijun:chiko:senko2:senko1:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 163,
+      "symbol": "IchimokuCalculator.Results.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 167,
+      "symbol": "IchimokuCalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/IchimokuCalculator.swift",
+      "line": 175,
+      "symbol": "IchimokuCalculator.Results.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 73,
+      "symbol": "MACDCalculator.update(shortSpan:longSpan:signalSpan:src:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 112,
+      "symbol": "MACDCalculator.SignalType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 113,
+      "symbol": "MACDCalculator.SignalType.sma",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 114,
+      "symbol": "MACDCalculator.SignalType.ema",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 119,
+      "symbol": "MACDCalculator.Results.macd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 120,
+      "symbol": "MACDCalculator.Results.signal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 121,
+      "symbol": "MACDCalculator.Results.osc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 122,
+      "symbol": "MACDCalculator.Results.emaShortList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 123,
+      "symbol": "MACDCalculator.Results.emaLongList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 125,
+      "symbol": "MACDCalculator.Results.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 138,
+      "symbol": "MACDCalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/MACDCalculator.swift",
+      "line": 146,
+      "symbol": "MACDCalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/ParabolicSARCalculator.swift",
+      "line": 13,
+      "symbol": "ParabolicSARCalculator.calculate(acceleration:maxAF:src:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/PsychologicalCalculator.swift",
+      "line": 13,
+      "symbol": "PsychologicalCalculator.calculate(span:src:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RCICalculator.swift",
+      "line": 95,
+      "symbol": "RCICalculator.update(span:src:rciList:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 70,
+      "symbol": "RSICalculator.update(span:src:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 118,
+      "symbol": "RSICalculator.Results.rsi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 119,
+      "symbol": "RSICalculator.Results.gains",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 120,
+      "symbol": "RSICalculator.Results.losses",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 122,
+      "symbol": "RSICalculator.Results.init(rsi:gains:losses:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 128,
+      "symbol": "RSICalculator.Results.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 132,
+      "symbol": "RSICalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 138,
+      "symbol": "RSICalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 144,
+      "symbol": "RSICalculator.Results.gainSum(range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 149,
+      "symbol": "RSICalculator.Results.lossSum(range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 154,
+      "symbol": "RSICalculator.Results.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/RSICalculator.swift",
+      "line": 158,
+      "symbol": "RSICalculator.Results.limitRange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/SpanModelCalculator.swift",
+      "line": 13,
+      "symbol": "SpanModelCalculator.calculate(span:src:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 83,
+      "symbol": "StochasticsCalculator.update(kSpan:dSpan:sdSpan:closeList:highList:lowList:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 108,
+      "symbol": "StochasticsCalculator.Results.upList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 109,
+      "symbol": "StochasticsCalculator.Results.rangeList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 110,
+      "symbol": "StochasticsCalculator.Results.kList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 111,
+      "symbol": "StochasticsCalculator.Results.dList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 112,
+      "symbol": "StochasticsCalculator.Results.sdList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 114,
+      "symbol": "StochasticsCalculator.Results.init(upList:rangeList:kList:dList:sdList:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 122,
+      "symbol": "StochasticsCalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 130,
+      "symbol": "StochasticsCalculator.Results.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/StochasticsCalculator.swift",
+      "line": 138,
+      "symbol": "StochasticsCalculator.Results.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 13,
+      "symbol": "TurningPointCalculator.defaultReversalRate",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 140,
+      "symbol": "TurningPointCalculator.update(span:reversalRate:highList:lowList:results:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 165,
+      "symbol": "TurningPointCalculator.PointType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 166,
+      "symbol": "TurningPointCalculator.PointType.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 166,
+      "symbol": "TurningPointCalculator.PointType.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 166,
+      "symbol": "TurningPointCalculator.PointType.topAndBottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 166,
+      "symbol": "TurningPointCalculator.PointType.undefined",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 169,
+      "symbol": "TurningPointCalculator.TurningPoint",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 170,
+      "symbol": "TurningPointCalculator.TurningPoint.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 171,
+      "symbol": "TurningPointCalculator.TurningPoint.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 172,
+      "symbol": "TurningPointCalculator.TurningPoint.reversal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 173,
+      "symbol": "TurningPointCalculator.TurningPoint.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 175,
+      "symbol": "TurningPointCalculator.TurningPoint.init(index:value:reversal:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 185,
+      "symbol": "TurningPointCalculator.Results.points",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 187,
+      "symbol": "TurningPointCalculator.Results.calculateDataCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 188,
+      "symbol": "TurningPointCalculator.Results.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 192,
+      "symbol": "TurningPointCalculator.Results.init(points:calculateDataCount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 197,
+      "symbol": "TurningPointCalculator.Results.removeLastFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 204,
+      "symbol": "TurningPointCalculator.Results.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Calculator/TurningPointCalculator.swift",
+      "line": 208,
+      "symbol": "TurningPointCalculator.Results.removeOldData(removedCount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartBorder.swift",
+      "line": 32,
+      "symbol": "ChartBorder.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartBorder.swift",
+      "line": 34,
+      "symbol": "ChartBorder.init(width:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartDrawer.swift",
+      "line": 13,
+      "symbol": "ChartDrawer.draw(context:data:rect:chartRect:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartView.swift",
+      "line": 146,
+      "symbol": "ChartView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartView.swift",
+      "line": 151,
+      "symbol": "ChartView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/ChartView.swift",
+      "line": 185,
+      "symbol": "ChartView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/GraphArea.swift",
+      "line": 29,
+      "symbol": "GraphArea.init(height:heightWeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/GraphArea.swift",
+      "line": 142,
+      "symbol": "GraphArea.touchesBegan(point:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/GraphArea.swift",
+      "line": 150,
+      "symbol": "GraphArea.touchesMoved(point:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/GraphArea.swift",
+      "line": 157,
+      "symbol": "GraphArea.touchesCompleted(point:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/LegendDrawer.swift",
+      "line": 37,
+      "symbol": "LegendDrawer.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/PinchInOut.swift",
+      "line": 32,
+      "symbol": "PinchInOut.touchesBegan(points:xAxisInterval:scrollOffset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/PinchInOut.swift",
+      "line": 40,
+      "symbol": "PinchInOut.touchesMoved(points:xAxisInterval:scrollOffset:xAxisRect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/PinchInOut.swift",
+      "line": 75,
+      "symbol": "PinchInOut.touchesEnded(points:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/Scroller.swift",
+      "line": 90,
+      "symbol": "Scroller.touch(position:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/Scroller.swift",
+      "line": 113,
+      "symbol": "Scroller.touchEnd(position:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxis.swift",
+      "line": 117,
+      "symbol": "XAxis.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 30,
+      "symbol": "XAxisMarker.adjustIndex(removeCount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 36,
+      "symbol": "TimeMarker.defaultFontColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 37,
+      "symbol": "TimeMarker.defaultLineColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 38,
+      "symbol": "TimeMarker.defaultMarkerColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 39,
+      "symbol": "TimeMarker.defaultDraggingTextBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 40,
+      "symbol": "TimeMarker.defaultDraggingTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 72,
+      "symbol": "TimeMarker.init(index:showLine:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/XAxisMarker.swift",
+      "line": 156,
+      "symbol": "TimeMarker.adjustIndex(removeCount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 22,
+      "symbol": "YAxis.defaultTouchMarkerColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 23,
+      "symbol": "YAxis.defaultTouchMarkerFontColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 24,
+      "symbol": "YAxis.defaultTouchMarkerLineColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 135,
+      "symbol": "YAxis.range",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 148,
+      "symbol": "YAxis.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 149,
+      "symbol": "YAxis.init(min:max:lockMinMax:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 501,
+      "symbol": "YAxis.GraduationAlignment.centerOfLine",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 502,
+      "symbol": "YAxis.GraduationAlignment.aboveLine",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxis.swift",
+      "line": 503,
+      "symbol": "YAxis.GraduationAlignment.belowLine",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Core/YAxisMarker.swift",
+      "line": 58,
+      "symbol": "PriceMarker.init(value:showLine:lineColor:fontColor:markerColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Drawer/LineChartDrawer.swift",
+      "line": 17,
+      "symbol": "LineChartDrawer.init(drawDot:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 26,
+      "symbol": "ChartData.values",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 37,
+      "symbol": "ChartData.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 41,
+      "symbol": "ChartData.latestTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 45,
+      "symbol": "ChartData.latestSequenceNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 52,
+      "symbol": "ChartData.init(timeList:sequenceNumberList:openList:highList:lowList:closeList:compareTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartData.swift",
+      "line": 232,
+      "symbol": "ChartData.compareSequence(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ChartRecord.swift",
+      "line": 28,
+      "symbol": "ChartRecord.init(time:open:high:low:close:volume:vwap:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/ColorText.swift",
+      "line": 20,
+      "symbol": "ColorText.init(_:_:visible:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/EnumType/ChartItem.swift",
+      "line": 13,
+      "symbol": "ChartItem.displayName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/EnumType/ChartItem.swift",
+      "line": 33,
+      "symbol": "MainChartItem.displayName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/EnumType/ChartItem.swift",
+      "line": 61,
+      "symbol": "SubChartItem.displayName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/FontContext.swift",
+      "line": 13,
+      "symbol": "FontContext.numericFont(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/FontContext.swift",
+      "line": 14,
+      "symbol": "FontContext.descriptionFont(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/FontContext.swift",
+      "line": 19,
+      "symbol": "UsesFontContext.reflectFontContext(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/FontContext.swift",
+      "line": 24,
+      "symbol": "DefaultFontContext.numericFont(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Entity/FontContext.swift",
+      "line": 28,
+      "symbol": "DefaultFontContext.descriptionFont(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 64,
+      "symbol": "BollingerBand.defaultLegend",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 175,
+      "symbol": "BollingerBand.Param.smaOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 176,
+      "symbol": "BollingerBand.Param.span",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 177,
+      "symbol": "BollingerBand.Param.sigma1Rate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 178,
+      "symbol": "BollingerBand.Param.sigma2Rate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 179,
+      "symbol": "BollingerBand.Param.sigma3Rate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 180,
+      "symbol": "BollingerBand.Param.sigma1On",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 181,
+      "symbol": "BollingerBand.Param.sigma2On",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 182,
+      "symbol": "BollingerBand.Param.sigma3On",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/BollingerBand.swift",
+      "line": 184,
+      "symbol": "BollingerBand.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Candle.swift",
+      "line": 38,
+      "symbol": "Candle.reflectColorConfig(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Candle.swift",
+      "line": 44,
+      "symbol": "Candle.updateYAxis(_:data:height:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Candle.swift",
+      "line": 49,
+      "symbol": "Candle.draw(context:yAxis:data:rect:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 176,
+      "symbol": "EMA.Param.shortOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 177,
+      "symbol": "EMA.Param.middleOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 178,
+      "symbol": "EMA.Param.longOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 179,
+      "symbol": "EMA.Param.shortSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 180,
+      "symbol": "EMA.Param.middleSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 181,
+      "symbol": "EMA.Param.longSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/EMA.swift",
+      "line": 183,
+      "symbol": "EMA.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 221,
+      "symbol": "Ichimoku.Param.tenkanOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 222,
+      "symbol": "Ichimoku.Param.kijunOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 223,
+      "symbol": "Ichimoku.Param.senkoChikoOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 224,
+      "symbol": "Ichimoku.Param.tenkanSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 225,
+      "symbol": "Ichimoku.Param.kijunSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 226,
+      "symbol": "Ichimoku.Param.span",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/Ichimoku.swift",
+      "line": 228,
+      "symbol": "Ichimoku.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/PriceLine.swift",
+      "line": 41,
+      "symbol": "PriceLine.reflectColorConfig(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/PriceLine.swift",
+      "line": 46,
+      "symbol": "PriceLine.updateYAxis(_:data:height:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/PriceLine.swift",
+      "line": 50,
+      "symbol": "PriceLine.draw(context:yAxis:data:rect:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 176,
+      "symbol": "SMA.Param.shortOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 177,
+      "symbol": "SMA.Param.middleOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 178,
+      "symbol": "SMA.Param.longOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 179,
+      "symbol": "SMA.Param.shortSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 180,
+      "symbol": "SMA.Param.middleSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 181,
+      "symbol": "SMA.Param.longSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/SMA.swift",
+      "line": 183,
+      "symbol": "SMA.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/TurningPoint.swift",
+      "line": 49,
+      "symbol": "TurningPoint.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/TurningPoint.swift",
+      "line": 55,
+      "symbol": "TurningPoint.reflectFontContext(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Main/TurningPoint.swift",
+      "line": 129,
+      "symbol": "TurningPoint.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 166,
+      "symbol": "DMIADX.Param.diOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 167,
+      "symbol": "DMIADX.Param.adxOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 168,
+      "symbol": "DMIADX.Param.adxrOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 169,
+      "symbol": "DMIADX.Param.diSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 170,
+      "symbol": "DMIADX.Param.adxSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 171,
+      "symbol": "DMIADX.Param.adxrSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/DMIADX.swift",
+      "line": 173,
+      "symbol": "DMIADX.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/MACD.swift",
+      "line": 235,
+      "symbol": "MACD.Param.signalOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/MACD.swift",
+      "line": 236,
+      "symbol": "MACD.Param.shortSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/MACD.swift",
+      "line": 237,
+      "symbol": "MACD.Param.longSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/MACD.swift",
+      "line": 238,
+      "symbol": "MACD.Param.signalSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/MACD.swift",
+      "line": 240,
+      "symbol": "MACD.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 166,
+      "symbol": "RCI.Param.shortOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 167,
+      "symbol": "RCI.Param.middleOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 168,
+      "symbol": "RCI.Param.longOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 169,
+      "symbol": "RCI.Param.shortSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 170,
+      "symbol": "RCI.Param.middleSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 171,
+      "symbol": "RCI.Param.longSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RCI.swift",
+      "line": 173,
+      "symbol": "RCI.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 166,
+      "symbol": "RSI.Param.shortOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 167,
+      "symbol": "RSI.Param.middleOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 168,
+      "symbol": "RSI.Param.longOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 169,
+      "symbol": "RSI.Param.shortSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 170,
+      "symbol": "RSI.Param.middleSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 171,
+      "symbol": "RSI.Param.longSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/RSI.swift",
+      "line": 173,
+      "symbol": "RSI.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 146,
+      "symbol": "Stochastics.Param.kOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 147,
+      "symbol": "Stochastics.Param.dOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 148,
+      "symbol": "Stochastics.Param.slowDOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 149,
+      "symbol": "Stochastics.Param.kSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 150,
+      "symbol": "Stochastics.Param.dSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 151,
+      "symbol": "Stochastics.Param.slowDSpan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Stochastics.swift",
+      "line": 153,
+      "symbol": "Stochastics.Param.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Volume.swift",
+      "line": 26,
+      "symbol": "Volume.reflectColorConfig(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Volume.swift",
+      "line": 30,
+      "symbol": "Volume.updateYAxis(_:data:height:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/Sub/Volume.swift",
+      "line": 35,
+      "symbol": "Volume.draw(context:yAxis:data:rect:visibleSpan:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/TechnicalChart/TechnicalChart.swift",
+      "line": 42,
+      "symbol": "SimpleTechnicalChart",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart/TraderChart/Util/CGContext+Utils.swift",
+      "line": 13,
+      "symbol": "CGContext.drawString(_:rect:font:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/yamamoto/Desktop/iOSDev/TraderChart/TraderChart"
+}
