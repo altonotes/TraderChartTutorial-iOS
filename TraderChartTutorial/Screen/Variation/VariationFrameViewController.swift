@@ -44,8 +44,6 @@ class VariationFrameViewController: UIViewController {
         switch sampleVariation {
         case .minimum:
             return MinimumSampleViewController()
-        case .dataUpdate:
-            return DataUpdateSampleViewController()
         case .uiCustomize:
             return UICustomizeSampleViewController()
         case .callback:

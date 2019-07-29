@@ -26,8 +26,6 @@
 		40A6095522DEF4B00013EDAD /* VariationFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6095422DEF4B00013EDAD /* VariationFrameViewController.swift */; };
 		40F515D822E985F70068600F /* UICustomizeSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F515D622E985F70068600F /* UICustomizeSampleViewController.swift */; };
 		40F515D922E985F70068600F /* UICustomizeSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F515D722E985F70068600F /* UICustomizeSampleViewController.xib */; };
-		40F515DC22E986090068600F /* DataUpdateSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F515DA22E986090068600F /* DataUpdateSampleViewController.swift */; };
-		40F515DD22E986090068600F /* DataUpdateSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F515DB22E986090068600F /* DataUpdateSampleViewController.xib */; };
 		40F515E022E986150068600F /* CallbackSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F515DE22E986150068600F /* CallbackSampleViewController.swift */; };
 		40F515E122E986150068600F /* CallbackSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F515DF22E986150068600F /* CallbackSampleViewController.xib */; };
 /* End PBXBuildFile section */
@@ -67,8 +65,6 @@
 		40A6095422DEF4B00013EDAD /* VariationFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationFrameViewController.swift; sourceTree = "<group>"; };
 		40F515D622E985F70068600F /* UICustomizeSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomizeSampleViewController.swift; sourceTree = "<group>"; };
 		40F515D722E985F70068600F /* UICustomizeSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICustomizeSampleViewController.xib; sourceTree = "<group>"; };
-		40F515DA22E986090068600F /* DataUpdateSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUpdateSampleViewController.swift; sourceTree = "<group>"; };
-		40F515DB22E986090068600F /* DataUpdateSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataUpdateSampleViewController.xib; sourceTree = "<group>"; };
 		40F515DE22E986150068600F /* CallbackSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackSampleViewController.swift; sourceTree = "<group>"; };
 		40F515DF22E986150068600F /* CallbackSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallbackSampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				40F515D522E985C90068600F /* Callback */,
-				40F515D422E985BD0068600F /* DataUpdate */,
 				40F515D322E985B30068600F /* UICustomize */,
 				402E622122E18F6000E2701D /* Minimum */,
 				40A6093D22DEF1FD0013EDAD /* VariationMenuViewController.swift */,
@@ -191,15 +186,6 @@
 				40F515D722E985F70068600F /* UICustomizeSampleViewController.xib */,
 			);
 			path = UICustomize;
-			sourceTree = "<group>";
-		};
-		40F515D422E985BD0068600F /* DataUpdate */ = {
-			isa = PBXGroup;
-			children = (
-				40F515DA22E986090068600F /* DataUpdateSampleViewController.swift */,
-				40F515DB22E986090068600F /* DataUpdateSampleViewController.xib */,
-			);
-			path = DataUpdate;
 			sourceTree = "<group>";
 		};
 		40F515D522E985C90068600F /* Callback */ = {
@@ -277,7 +263,6 @@
 				40F515E122E986150068600F /* CallbackSampleViewController.xib in Resources */,
 				4066CB5A22E6E98600ED5451 /* SettingMenuViewController.xib in Resources */,
 				402E622522E18F8400E2701D /* MinimumSampleViewController.xib in Resources */,
-				40F515DD22E986090068600F /* DataUpdateSampleViewController.xib in Resources */,
 				40A6094322DEF1FE0013EDAD /* Assets.xcassets in Resources */,
 				40A6094122DEF1FD0013EDAD /* Main.storyboard in Resources */,
 			);
@@ -318,7 +303,6 @@
 				40F515D822E985F70068600F /* UICustomizeSampleViewController.swift in Sources */,
 				4066CB5922E6E98600ED5451 /* SettingMenuViewController.swift in Sources */,
 				40A6093E22DEF1FD0013EDAD /* VariationMenuViewController.swift in Sources */,
-				40F515DC22E986090068600F /* DataUpdateSampleViewController.swift in Sources */,
 				40603DA022EEC83600630CAB /* String+Utils.swift in Sources */,
 				40A6093A22DEF1FD0013EDAD /* AppDelegate.swift in Sources */,
 				40F515E022E986150068600F /* CallbackSampleViewController.swift in Sources */,
